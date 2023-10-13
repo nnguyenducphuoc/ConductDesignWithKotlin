@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="40dp"
+        android:text="ỨNG DỤNG BÉ HỌC TOÁN"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/number1"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:hint="Nhập số thứ nhất"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:gravity="center"
+        android:id="@+id/number2"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:hint="Nhập số thứ hai"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <TextView
+        android:textColor="#FF0000"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:text="10"
+        android:layout_margin="20dp"
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_cong"
+            android:text="+"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_tru"
+            android:text="-"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_nhan"
+            android:text="*"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:id="@+id/btn_chia"
+            android:text="/"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
